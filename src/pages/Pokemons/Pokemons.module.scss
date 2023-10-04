@@ -1,0 +1,25 @@
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.typeSelect {
+  width: 140px;
+}
+
+.abilityTitle {
+  color: rgba(0, 0, 0, 0.88);
+}
+
+@media only screen and (max-width: 481px) {
+  .loadingMessage {
+    display: none;
+  }
+}
